@@ -1,0 +1,9 @@
+---
+
+ - hosts: all
+   become: true
+   tasks:
+   
+   -name: install netplan.io package
+    apt:
+      name: netplan.io 
